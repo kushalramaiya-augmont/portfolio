@@ -181,9 +181,9 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   // Site Information
   // [CONFIG:SITE_URL]
-  site: "https://astro-modular.netlify.app",
+  site: "https://kushalramaiya-augmont.github.io/portfolio",
   // [CONFIG:SITE_TITLE]
-  title: "Astro Modular",
+  title: "Kushal Ramaiya",
   // [CONFIG:SITE_DESCRIPTION]
   description: "A flexible blog theme designed for Obsidian users.",
   // [CONFIG:SITE_AUTHOR]
@@ -242,7 +242,7 @@ export const siteConfig: SiteConfig = {
   },
   deployment: {
     // [CONFIG:DEPLOYMENT_PLATFORM]
-    platform: "netlify", // "netlify" | "vercel" | "github-pages" - sets redirect configuration for the chosen platform
+    platform: "github-pages", // "netlify" | "vercel" | "github-pages" - sets redirect configuration for the chosen platform
   },
 
   // Command Palette
